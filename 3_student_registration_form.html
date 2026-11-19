@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>student registration from</title>
+  </head>
+  <body>
+    <h1>STUDENT REGISTRATION</h1>
+    <form>
+      <label for="Full Name">Full Name:</label>
+      <input type="text" required /><br /><br />
+      <label for="Email Address">Email Address:</label>
+      <input type="email" required /><br /><br />
+      <label for="Phone Number">Phone Number:</label>
+      <input type="number" required />
+      <br /><br />
+      <label for="Date of Birth">Date of Birth:</label>
+      <input type="date" placeholder="Enter date of birth" />
+      <br /><br />
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" />
+      <label for="other">Other</label>
+      <br /><br />
+      <label for="Course">Course:</label>
+      <select>
+        <option value="Select Your Course" selected>Select Your Course</option>
+        <option value="CSE">Computer Science Engineering</option>
+        <option value="IT">Information Technology</option>
+        <option value="AI">Artificial Intelligence</option>
+        <option value="DA">Data Analytics</option>
+        <option value="CS">Cyber Security</option>
+      </select>
+      <br /><br />
+      <label for="skills">Skilles:</label>
+      <input type="checkbox" id="HTML" />
+      <label for="HTML">HTML</label>
+      <input type="checkbox" id="CSS" />
+      <label for="CSS">CSS</label>
+      <input type="checkbox" id="Java Script" />
+      <label for="Java Script">JavaScript</label>
+      <br /><br />
+      <label for="Address">Address:</label>
+      <textarea placeholder="Enter full address"></textarea>
+      <br /><br />
+      <button>Register Now</button>
+    </form>
+  </body>
+</html>
